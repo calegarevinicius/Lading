@@ -1,0 +1,47 @@
+.container{
+    width: 280px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: grey;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+label{
+  color: white;
+
+}
+h1{
+
+    color: red;
+    font-family: "Merriweather", serif;
+}
+img{
+    width: 500px;
+    position: absolute;
+    right: 100px;
+    bottom: 300px;
+    border-radius: 20px;
+
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(13, 13, 101);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+footer i{
+ font-size: 40px;
+
+
+}
